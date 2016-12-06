@@ -3,7 +3,7 @@ const mSort = require( './mergesort' );
 
 
 describe( 'sorting arrays', function() {
-    describe( 'selection sort', function() {
+    describe( 'merge sort', function() {
         it( 'should sort the array', function() {
             var myArr = [ 23, 42, 4, 16, 8, 15, 1, 3, 1 ];
             var myArr2 = [5,4,7,19,22,21,22,31,22]
